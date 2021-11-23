@@ -16,11 +16,12 @@ can be tested and run. This file contains well lit pictures of 10 faces for the 
 main.py is what needs to be run for the program to work. It will look for a model to load and create one if a model 
 isn't found. If the model needs to be created, a dataset will be needed (this should not happen if properly run). This 
 file contains some parameters that need to be set as-is to ensure the program runs correctly:
-maxNumParticipants = 10
-model_JSON = "Face_Recognition_Model.json"
-model_Weights = "Face_Recognition_Weights.h5"
-generateData = False
-haarcascade_frontalface_default.xml needs to be in the directory 
+
+		maxNumParticipants = 10
+		model_JSON = "Face_Recognition_Model.json"
+		model_Weights = "Face_Recognition_Weights.h5"
+		generateData = False
+		haarcascade_frontalface_default.xml needs to be in the directory 
 
 Running main.py will display the models CNN error and a series of images from the Display_Data image set. These images 
 have the model's prediction for who it is and the actual value associated to the image. Two examples of this are saved 
