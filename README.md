@@ -15,7 +15,8 @@ can be tested and run. This file contains well lit pictures of 10 faces for the 
 
 main.py is what needs to be run for the program to work. It will look for a model to load and create one if a model 
 isn't found. If the model needs to be created, a dataset will be needed (this should not happen if properly run). This 
-file contains some parameters that need to be set as-is to ensure the program runs correctly:
+file contains some parameters that should be set properly as-is to ensure the program runs correctly. Just in case, the
+parameters need to be set as follows:
 
 		maxNumParticipants = 10
 		model_JSON = "Face_Recognition_Model.json"
